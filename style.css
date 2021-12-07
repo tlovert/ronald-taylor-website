@@ -1,6 +1,11 @@
-body{
-    margin: 0;
-    padding: 0%;
-    background-color: #000;
-    color: white;
+body {
+  margin: 0;
+  padding: 0%;
+  background-color: #000;
+  color: white;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
 }
